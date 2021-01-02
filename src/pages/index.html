@@ -19,14 +19,14 @@
 <body>
   <main>
     <section class="hero">
-      <div class="hero_image-container">
-        <img class="hero_image" alt="Michal photo" />
-        <spam class="hero_hello">Hey there!🖐></spam>
+      <div class="hero__image-container">
+        <img class="hero__image" alt="Michal photo" />
+        <span class="hero__hello">Hey there!🖐></span>
       </div>
-      <div class="hero_description">
-        <h1 class="hero_header">
+      <div class="hero__description">
+        <h1 class="hero__header">
           My name is Michal and I'm an aspiring
-          <span class="hero_special">Frontend developer</span>
+          <span class="hero__special">Frontend developer</span>
         </h1>
         <p class="hero__paragraph">
           You maigt be intrested in checking the list of
@@ -40,56 +40,56 @@
     <section class="skills" id="skills">
       <h2 class="skills__header">My skills</h2>
       <article class="skills-section">
-        <span class="skills-section_emoji">👌</span>
-        <h3 class="skills-section_header">Working knowledge</h3>
+        <span class="skills-section__emoji">👌</span>
+        <h3 class="skills-section__header">Working knowledge</h3>
         <ul class="skills-list">
-          <li class="skills-list_item">Semantic HTML5</li>
-          <li class="skills-list_item">Flexbox</li>
-          <li class="skills-list_item">Markdown</li>
-          <li class="skills-list_item">JS: Local storage</li>
-          <li class="skills-list_item">Figma</li>
-          <li class="skills-list_item">CSS grid</li>
-          <li class="skills-list_item">JS: DOM manipulations</li>
-          <li class="skills-list_item">SASS</li>
+          <li class="skills-list__item">Semantic HTML5</li>
+          <li class="skills-list__item">Flexbox</li>
+          <li class="skills-list__item">Markdown</li>
+          <li class="skills-list__item">JS: Local storage</li>
+          <li class="skills-list__item">Figma</li>
+          <li class="skills-list__item">CSS grid</li>
+          <li class="skills-list__item">JS: DOM manipulations</li>
+          <li class="skills-list__item">SASS</li>
         </ul>
       </article>
       <article class="skills-section">
-        <span class="skills-section_emoji">🤔</span>
-        <h3 class="skills-section_header">Know something abouth</h3>
+        <span class="skills-section__emoji">🤔</span>
+        <h3 class="skills-section__header">Know something abouth</h3>
         <ul class="skills-list">
-          <li class="skills-list_item">avaScript ES6 + features</li>
-          <li class="skills-list_item">CSS animations</li>
-          <li class="skills-list_item">Working with API</li>
-          <li class="skills-list_item">NPM scripts</li>
-          <li class="skills-list_item">Progressive web apps</li>
-          <li class="skills-list_item">Git</li>
-          <li class="skills-list_item">Accessibility</li>
+          <li class="skills-list__item">avaScript ES6 + features</li>
+          <li class="skills-list__item">CSS animations</li>
+          <li class="skills-list__item">Working with API</li>
+          <li class="skills-list__item">NPM scripts</li>
+          <li class="skills-list__item">Progressive web apps</li>
+          <li class="skills-list__item">Git</li>
+          <li class="skills-list__item">Accessibility</li>
         </ul>
       </article>
       <article class="skills-section">
-        <span class="skills-section_emoji">🤯</span>
-        <h3 class="skills-section_header">Want to learn</h3>
+        <span class="skills-section__emoji">🤯</span>
+        <h3 class="skills-section__header">Want to learn</h3>
         <ul class="skills-list">
-          <li class="skills-list_item">React</li>
-          <li class="skills-list_item">JS higher level</li>
-          <li class="skills-list_item">Node JS</li>
-          <li class="skills-list_item">Wordpress</li>
-          <li class="skills-list_item">Server side rendering</li>
-          <li class="skills-list_item">Typecrit</li>
-          <li class="skills-list_item">Gatsby</li>
-          <li class="skills-list_item">WebSockets</li>
+          <li class="skills-list__item">React</li>
+          <li class="skills-list__item">JS higher level</li>
+          <li class="skills-list__item">Node JS</li>
+          <li class="skills-list__item">Wordpress</li>
+          <li class="skills-list__item">Server side rendering</li>
+          <li class="skills-list__item">Typecrit</li>
+          <li class="skills-list__item">Gatsby</li>
+          <li class="skills-list__item">WebSockets</li>
         </ul>
       </article>
     </section>
     <section class="projects">
-      <h2 class="projects_header">Recent projects</h2>
-      <p class="projects_descriptions">
+      <h2 class="projects__header">Recent projects</h2>
+      <p class="projects__descriptions">
         I started my frontend developer path in 2019. Since then, I've built some projects. Here's the list of the
         things I've done so far.
       </p>
       <div class="projects-grid">
         <article class="project">
-          <h3 class="project_title">
+          <h3 class="project__title">
             <span>project</span> <span>Kalkulator Parametrów CNC</span></h3>
           <p>
             <span>description:</span>
@@ -99,14 +99,38 @@
             <span>demo:</span>
             <span>&lt;<a href="#" title="Parameter Calculator - demo">see_here</a>&gt;</span>
           </p>
-          <p></p>
+          <p>
             <span>github:</span>
             <span>&lt;<a href="#" title="source code">source code</a>&gt;</span>
           </p>
         </article>
       </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="contact__header">Contact me</h2>
+      <p class="contact__desription">
+        I'm open for new opportunities. If you have one for me we should talk!
+      </p>
+      <div class="contacts__links">
+        <ul class="socials">
+          <li class="socials__item">
+            <a class="socials__link" href="https://github.com/michalmaj1987">
+              <img class="socials__icon" alt="Michal Maj github"></a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="https://instagram.com/michalmaj1987">
+              <img class="socials__icon" alt="Michal Maj instagram"></a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="https://facebook.com/michalmaj1987">
+              <img class="socials__icon" alt="Michal Maj facebook"></a>
+          </li>
+        </ul>
+        <a class="contact__mail" href="mailto:michalmaj1987@gmail.com">michalmaj1987@gmail.com</a>
+      </div>
 
     </section>
+
   </main>
 </body>
 
