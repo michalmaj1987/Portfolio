@@ -1,4 +1,4 @@
-![cover](https://michalmaj1987.github.io/og-jfd.png)
+![cover]("https://michalmaj1987.github.io/og-jfd.png")
 
 # MICHAŁ MAJ - JUNIOR FRONTEND DEVELOPER
 
