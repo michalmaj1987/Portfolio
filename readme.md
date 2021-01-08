@@ -1,4 +1,4 @@
-![cover]("https://michalmaj1987.github.io/Portfolio/public/og-jfd.png")
+![cover]("./public/og-jfd.png")
 # MICHAŁ MAJ - JUNIOR FRONTEND DEVELOPER
 
 My simple portfolio website
