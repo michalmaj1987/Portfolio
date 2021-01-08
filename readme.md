@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 ![cover]("https://michalmaj1987.github.io./public/og-jfd.png")
-=======
-![cover]("https://michalmaj1987.github.io/og-jfd.png")
-
->>>>>>> b219551c05c0577192260b12166d1e10ac45dcc5
 # MICHAŁ MAJ - JUNIOR FRONTEND DEVELOPER
 
 My simple portfolio website
